@@ -18,5 +18,14 @@ public class StringClassPractice {
 
     // == >> it points out the memory location
     // equals() >> it point out the value
+
+   // Getting String Length >> str.length()
+    Getting Characters from a String >> str.charAt(0)
+    Concatenating Strings >> str1 + str2
+    Converting Strings >> “Welcome”.toUpperCase() returns a new string WELCOME.
+            “Welcome”.toLowerCase() returns a new string welcome.
+    Reading a String from the Console >> String s1 = input.nextLine();
+    Obtaining Substrings >> message.substring(beginIncluded, endsNOTincluded);
+    Stringbuffer and Stringbuilder <speed comparison>
 }
 

@@ -36,5 +36,33 @@ public class ComputeChange {
         System.out.println("Dimes: " + dimes);
         System.out.println("Nickels: " + nickels);
         System.out.println("Pennies: " + cents);
+
+        //2nd solution
+        Scanner input= new Scanner(System.in);
+
+        double num=input.nextDouble();
+
+
+        int dollar= (int)(num*100);
+
+        int cent= dollar%5;
+        dollar= dollar-cent;
+
+        int nickles =(dollar%25)/10;
+        dollar=dollar-nickles;
+
+        int dimes=(dollar%50)/25;
+        dollar=dollar-dimes;
+
+        int quarter=(dollar%100)/25;
+
+        dollar=dollar-quarter;
+
+
+        System.out.println(dollar+" dollar, "+quarter+" quarters, "  +dimes+" dimes, "+ +nickles+" nickles, "+cent
+                +" cent, ");
+
+
+
     }
 }
