@@ -1,6 +1,4 @@
-package course2_day2;
-
-import java.util.Scanner;
+package day2;
 
 public class StringReview {
     public static void main(String[] args) {

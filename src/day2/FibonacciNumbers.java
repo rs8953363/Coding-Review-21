@@ -1,4 +1,4 @@
-package course2_day2;
+package day2;
 
 public class FibonacciNumbers {
     public static void main(String[] args) {

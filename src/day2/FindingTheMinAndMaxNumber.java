@@ -1,7 +1,6 @@
-package course2_day2;
+package day2;
 
-import java.security.Security;
-    import java.util.Scanner;
+import java.util.Scanner;
 
     public class FindingTheMinAndMaxNumber {
         public static void main(String[] args) {
