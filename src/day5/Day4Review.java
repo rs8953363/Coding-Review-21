@@ -1,8 +1,5 @@
 package day5;
 
-import java.util.Arrays;
-
-public class Day4Review {
     import java.util.Arrays;
 
     // knowing the sorting algorithms and talking about them is a huge plus.
@@ -53,4 +50,4 @@ public class Day4Review {
             }
         }
     }
-}
+

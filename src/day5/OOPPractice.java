@@ -1,7 +1,6 @@
 package day5;
 
-public class OOPPractice {
-    public class OOP_Practice extends Object {
+    public class OOPPractice extends Object {
         /*
          * Always give examples from your work/framework about the OOP
          *
@@ -25,4 +24,4 @@ public class OOPPractice {
     class AnotherClass2 {
 
     }
-}
+
